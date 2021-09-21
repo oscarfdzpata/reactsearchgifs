@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "https://oscarfdzpata.github.io/reactsearchgifs/",
   "name": "gif-expert-app-remember",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",   
-    "build": "react-scripts build",
-    "build-and-docs": "react-scripts build && node create-docs.js",
+    "build": "react-scripts build && rm -rf docs && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,3 +39,4 @@
 }
 
 
+// "build": "react-scripts build",
